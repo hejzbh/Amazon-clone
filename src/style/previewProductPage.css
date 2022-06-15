@@ -1,0 +1,212 @@
+.preview__product__page {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.preview__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 90vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photos__of__product {
+  width: 100%;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photos__of__product img {
+  width: 100%;
+}
+
+.photos__of__product .left__photos {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+}
+
+.photos__of__product .left__photos img {
+  max-width: 80px;
+  max-height: 50px;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.photos__of__product .main__photo {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+}
+
+.photos__of__product .main__photo img {
+  width: 100%;
+  max-width: 280px;
+  max-height: 350px;
+}
+
+.information__about__product {
+  width: 100%;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.information__about__product .preview__info__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 1em;
+}
+
+.information__about__product .preview__info__top h3 {
+  font-size: 30px;
+  color: #474747;
+}
+
+.information__about__product .preview__info__top .rating__starts {
+  padding: 0.4em 0;
+}
+
+.preview__desc__list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+  margin: 0.7em 0;
+  color: #0f1111;
+  font-size: 15px;
+}
+
+.preview__desc__list li span {
+  font-weight: 500;
+  margin-right: 8px;
+  color: #303030;
+}
+
+.preview__product__interact {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
+
+.preview__product__interact .preview__interact__box {
+  border: 1px solid #dadddd;
+  border-radius: 12px;
+  padding: 1em;
+  text-align: center;
+}
+
+.preview__product__interact .preview__interact__box p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0.8em;
+}
+
+.preview__product__interact .preview__interact__box p svg {
+  margin-right: 10px;
+}
+
+.add__to__cart__btn {
+  border: 0;
+  outline: 0;
+  font-family: 'Poppins';
+  padding: 0.5em 1.2em;
+  border-radius: 8px;
+  -webkit-transition: 250ms ease;
+  transition: 250ms ease;
+  cursor: pointer;
+  background: var(--amazon-color);
+  color: #fff;
+}
+
+.add__to__cart__btn:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: var(--amazon-color);
+  background: #fff;
+  -webkit-animation: pulse 1s infinite linear;
+          animation: pulse 1s infinite linear;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.185);
+            transform: scale(1.185);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.185);
+            transform: scale(1.185);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=previewProductPage.css.map */
